@@ -19,4 +19,4 @@ class sale_order_invoiced(models.Model):
             sale = super(sale_order_invoiced, rec)._get_invoiced()
             if rec.invoiced:
                 rec.invoice_status = 'invoiced'
-
+            return sale

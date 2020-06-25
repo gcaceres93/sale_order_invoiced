@@ -18,12 +18,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','sale'],
+    'depends': ['base','sale','purchase'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/sale_views.xml',
+        'views/purchase_views.xml',
     ],
 
 }
